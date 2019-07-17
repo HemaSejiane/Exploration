@@ -1,0 +1,12 @@
+Find middle elements from list, if list is odd then only middle digit if list is even then middle 2 digits
+
+def findmiddle(inputlist):
+	findlength= len(inputlist)//2
+	median= len(inputlist)%2
+	if median == 0:
+		outlist=inputlist[findlength-1],inputlist[findlength]
+	else:
+		outlist=inputlist[findlength]
+	return outlist
+  
+  

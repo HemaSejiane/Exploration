@@ -1,0 +1,7 @@
+1) Reverse a List
+a=[1,2,3,4]
+a[::-1]
+
+2) List Comprehension- Multiple a number if its divisble by 2
+ [i*i for i in a if i%2==0]
+ 

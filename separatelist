@@ -1,0 +1,9 @@
+
+Seaparet List with Integers and Strings
+
+def separatelist(inputList):
+	intlist=[i for i in  inputList if str(i).isdigit()]
+	stringlist= [i for i in  inputList if not str(i).isdigit()]
+	return intlist, stringlist
+  
+  
